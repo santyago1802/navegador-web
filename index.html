@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Clics - SENA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Interactividad con el DOM</h1>
+        <p>Haz clic en el botón para incrementar el contador y registrar el evento.</p>
+        
+        <div id="contador" class="counter-display">0</div>
+
+        <button id="btn-like">Dar Clic</button>
+        <button id="btn-dislike">Quitar Clic</button>
+
+        <table class="registry-table">
+            <thead>
+                <tr>
+                    <th>Numeros de Clic</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-cuerpo">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
